@@ -25,7 +25,10 @@
 		transform: translateY(-2px);
 		box-shadow: $shadowSmall;
 	}
-
+	
+	&.visually-hidden{
+		display:none;
+	}
 	&__hero {
 		position: relative;
 		height: 250px;
@@ -58,6 +61,10 @@
 
 	&__content {
 		padding: $gutter $gutter $gutter/2;
+		&:hover {
+			transition: .2s linear;
+			box-shadow: $shadowBig;
+		}
 	}
 
 }

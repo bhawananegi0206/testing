@@ -1,7 +1,7 @@
 {
   "private": true,
   "scripts": {
-    "start": "rosid serve src/ -o -s '/ui/index.html'",
+    "start": "rosid serve src/ -o -s 'ui/index.html'",
     "compile": "rosid compile src/ dist/ -i '**/_*' -i '**/*.{data,config}.{js,json}'"
   },
   "dependencies": {

@@ -13,17 +13,6 @@ module.exports = [
 		}
 	},
 	{
-		name: 'NJK Page',
-		path: '[^_]*.{html,njk}*',
-		handler: 'rosid-handler-njk',
-		opts: {
-			prepend: '{% extends "./assets/components/_layout.njk" %}{% block body %}',
-			append: '{% endblock %}',
-			src: 'src/',
-			data: 'data.js'
-		}
-	},
-	{
 		name: 'NJK Component',
 		path: 'assets/components/[^_]*/[^_]*.{html,njk}*',
 		handler: 'rosid-handler-njk',
@@ -36,7 +25,7 @@ module.exports = [
 	},
 	{
 		name: 'Malvid',
-		path: 'ui/index.{html,html.json}',
+		path: 'index.{html,html.json}',
 		handler: 'rosid-handler-malvid',
 		opts: {
 			src: 'src/'

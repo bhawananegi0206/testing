@@ -12,11 +12,11 @@
 					{% inject "assets/components/author/author.njk", item.author %}
 
 					<div class="quotes__arrows">
-						<button class="quotes__arrow quotes__arrow--prev">
-							<svg class="quotes__icon"><use xlink:href="#arrow"></use></svg>
+						<button class="quotes__arrow quotes__arrow--prev" aria-label="Previous">
+							<svg role="img" aria-label="Previous arrow" class="quotes__icon"><use xlink:href="#arrow"></use></svg>
 						</button>
-						<button class="quotes__arrow quotes__arrow--next">
-							<svg class="quotes__icon"><use xlink:href="#arrow"></use></svg>
+						<button class="quotes__arrow quotes__arrow--next" aria-label="Next">
+							<svg role="img" aria-label="Next arrow" class="quotes__icon"><use xlink:href="#arrow"></use></svg>
 						</button>
 					</div>
 

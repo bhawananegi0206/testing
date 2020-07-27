@@ -1,6 +1,14 @@
 # Website
 
+<<<<<<< Updated upstream
 The website of [Malvid](https://malvid.electerious.com) has been developed using Malvid itself. The project structure is based on a HTML5 Boilerplate called [Skeleton-Components](https://github.com/electerious/Skeleton-Components).
+=======
+The website of [Malvid](https://malvid.io) has been developed using Malvid itself. The project structure is based on a HTML5 Boilerplate called [Skeleton-Components](https://github.com/electerious/Skeleton-Components).
+The grid system which is used in this Project: [basicGrid](https://github.com/electerious/basicGrid).
+CSS/scss is written in BEM notation [GET BEM](http://getbem.com/introduction/).
+
+
+>>>>>>> Stashed changes
 
 ## Contents
 

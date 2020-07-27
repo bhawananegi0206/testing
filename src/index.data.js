@@ -11,21 +11,21 @@ module.exports = {
 						label: 'Get Started',
 						mobile: false,
 						href: {
-							value: '/Malvid/blob/master/docs/Get%20started.md'
+							value: 'https://github.com/Malvid/Malvid/blob/master/docs/Get%20started.md'
 						}
 					},
 					{
 						label: 'Documentation',
 						mobile: true,
 						href: {
-							value: '/Malvid/blob/master/README.md'
+							value: 'https://github.com/Malvid/Malvid/blob/master/README.md'
 						}
 					},
 					{
 						label: 'Changelog',
 						mobile: false,
 						href: {
-							value: '/Malvid/blob/master/CHANGELOG.md'
+							value: 'https://github.com/Malvid/Malvid/blob/master/CHANGELOG.md'
 						}
 					}
 				]
@@ -33,7 +33,7 @@ module.exports = {
 			icon: {
 				icon: 'github',
 				href: {
-					value: '/Malvid'
+					value: 'https://github.com/Malvid/Malvid'
 				}
 			}
 		},
@@ -54,7 +54,7 @@ module.exports = {
 					color: 'dark',
 					label: 'Documentation',
 					href: {
-						value: '/Malvid'
+						value: 'https://github.com/Malvid/Malvid'
 					}
 				}
 			],
@@ -347,7 +347,7 @@ module.exports = {
 				content: [
 					{
 						href: {
-							value: '/Malvid/blob/master/docs/Get%20started.md'
+							value: 'https://github.com/Malvid/Malvid/blob/master/docs/Get%20started.md'
 						},
 						icon: 'play',
 						header: 'Get started',
@@ -355,7 +355,7 @@ module.exports = {
 					},
 					{
 						href: {
-							value: '/Malvid'
+							value: 'https://github.com/Malvid/Malvid'
 						},
 						icon: 'document-text',
 						header: 'Documentation',
@@ -363,7 +363,7 @@ module.exports = {
 					},
 					{
 						href: {
-							value: 'electerious/Skeleton-Components'
+							value: 'https://github.com/electerious/Skeleton-Components'
 						},
 						icon: 'code-download',
 						header: 'Boilerplate',

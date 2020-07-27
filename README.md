@@ -1,5 +1,9 @@
 # Website
 
+The website of [Malvid](https://malvid.electerious.com) has been developed using Malvid itself. The project structure is based on a HTML5 Boilerplate called [Skeleton-Components](https://github.com/electerious/Skeleton-Components).
+The website of [Malvid](https://malvid.io) has been developed using Malvid itself. The project structure is based on a HTML5 Boilerplate called [Skeleton-Components](https://github.com/electerious/Skeleton-Components).
+The grid system which is used in this Project: [basicGrid](https://github.com/electerious/basicGrid).
+CSS/scss is written in BEM notation [GET BEM](http://getbem.com/introduction/).
 
 
 
@@ -51,7 +55,7 @@ yarn run compile
 
 ### UI
 
-This project includes [Malvid]to help you build and document web components. Start the [development server](#develop) and open `/index.html` in your browser. The path to the UI can be changed in `rosidfile.js`.
+This project includes [Malvid](https://github.com/Malvid/Malvid) to help you build and document web components. Start the [development server](#develop) and open `/index.html` in your browser. The path to the UI can be changed in `rosidfile.js`.
 
 ## Docker
 

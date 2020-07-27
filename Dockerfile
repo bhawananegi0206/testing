@@ -17,6 +17,7 @@ RUN curl "https://caddyserver.com/download/linux/amd64?license=personal&telemetr
 # Add dependencies first so that the docker image build can use
 # the cache as long as the dependencies stay unchanged.
 
+
 COPY package.json yarn.lock /srv/app/
 RUN yarn install
 
